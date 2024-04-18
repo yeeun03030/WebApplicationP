@@ -50,7 +50,7 @@ public class SampleController {
         return "redirect:/sample/ex3";
     }
 
-    @GetMapping({"/ex3", "/exLayout1", "/exLayout2"})
+    @GetMapping({"/ex3", "/exLayout1", "/exLayout2", "/exTemplate"})
     public void ex3() {
 
     }
