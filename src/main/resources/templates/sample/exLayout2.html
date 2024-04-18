@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<th:block th:replace="~{/fragments/fragment3 :: target(~{this :: #first}, ~{this :: #second})}">
+    <ul id="first">
+        <li>딸기</li>
+        <li>참외</li>
+        <li>키위</li>
+        <li>바나나</li>
+    </ul>
+
+    <ul id="second">
+        <li>투게더</li>
+        <li>돼지바</li>
+        <li>빵빠레</li>
+        <li>엑셀런트</li>
+    </ul>
+</th:block>
+</body>
+</html>
